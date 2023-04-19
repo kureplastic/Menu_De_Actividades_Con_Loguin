@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Menu De Actividades</string>
+    <string name="title_activity_navigation">Navegacion</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Hola usuario!</string>
+    <string name="nav_header_subtitle">Bienvenido!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuracion</string>
+
+    <string name="menu_home">Bienvenido</string>
+    <string name="menu_actividades">Actividades</string>
+    <string name="menu_salir">Salir</string>
+</resources>
