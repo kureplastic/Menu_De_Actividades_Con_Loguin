@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@id/nav_home">
 
     <fragment
         android:id="@+id/nav_home"
@@ -29,5 +29,15 @@
         android:name="com.example.menu_de_actividades_con_loguin.ui.actividades.DetalleFragment"
         android:label="Detalles de Actividad"
         tools:layout="@layout/item_detalle" />
+    <fragment
+        android:id="@+id/nav_llamar"
+        android:name="com.example.menu_de_actividades_con_loguin.ui.llamar.LlamarFragment"
+        android:label="Llamar"
+        tools:layout="@layout/fragment_llamar" />
+    <fragment
+        android:id="@+id/nav_mercados"
+        android:name="com.example.menu_de_actividades_con_loguin.ui.supermercados.MercadosFragment"
+        android:label="@string/menu_mercados"
+        tools:layout="@layout/fragment_mercados" />
 
 </navigation>

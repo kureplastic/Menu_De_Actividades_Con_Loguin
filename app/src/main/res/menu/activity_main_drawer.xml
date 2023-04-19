@@ -11,6 +11,12 @@
             android:id="@+id/nav_actividades"
             android:title="@string/menu_actividades" />
         <item
+            android:id="@+id/nav_llamar"
+            android:title="@string/menu_llamar" />
+        <item
+            android:id="@+id/nav_mercados"
+            android:title="@string/menu_mercados" />
+        <item
             android:id="@+id/nav_salir"
             android:title="@string/menu_salir" />
     </group>

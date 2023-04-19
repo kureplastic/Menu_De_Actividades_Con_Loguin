@@ -17,7 +17,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.menu_de_actividades_con_loguin.R;
 import com.example.menu_de_actividades_con_loguin.models.Actividad;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 
 public class ActividadesAdapter extends RecyclerView.Adapter<ActividadesAdapter.ViewHolder>{

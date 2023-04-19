@@ -1,6 +1,5 @@
 package com.example.menu_de_actividades_con_loguin.ui.actividades;
 
-import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
@@ -15,13 +14,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.menu_de_actividades_con_loguin.MainActivity;
-import com.example.menu_de_actividades_con_loguin.NavigationActivity;
-import com.example.menu_de_actividades_con_loguin.R;
 import com.example.menu_de_actividades_con_loguin.databinding.FragmentActividadesBinding;
-import com.example.menu_de_actividades_con_loguin.databinding.FragmentHomeBinding;
 import com.example.menu_de_actividades_con_loguin.models.Actividad;
-import com.example.menu_de_actividades_con_loguin.ui.home.HomeViewModel;
 
 import java.util.ArrayList;
 

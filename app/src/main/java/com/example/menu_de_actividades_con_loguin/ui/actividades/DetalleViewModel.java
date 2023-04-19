@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.navigation.Navigation;
@@ -19,9 +20,18 @@ public class DetalleViewModel extends AndroidViewModel {
 
     public DetalleViewModel(@NonNull Application application) {
         super(application);
-        mutableActividad = new MutableLiveData<>();
 
     }
     // TODO: Implement the ViewModel
+    public LiveData<Actividad> getMutableActividad(){
+        if(mutableActividad == null){
+            mutableActividad = new MutableLiveData<>();
+        }
+        return mutableActividad;
+    }
+    public void recuperarActividad(Bundle bundle){
+        Actividad actividad = (Actividad) bundle.getSerializable("actividad");
+        mutableActividad.setValue(actividad);
+    }
 
 }

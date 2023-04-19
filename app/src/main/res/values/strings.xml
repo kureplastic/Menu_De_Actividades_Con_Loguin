@@ -9,6 +9,8 @@
     <string name="action_settings">Configuracion</string>
 
     <string name="menu_home">Bienvenido</string>
-    <string name="menu_actividades">Actividades</string>
+    <string name="menu_actividades">Mis Actividades</string>
+    <string name="menu_mercados">Mercados en la zona</string>
+    <string name="menu_llamar">Llamar</string>
     <string name="menu_salir">Salir</string>
 </resources>
